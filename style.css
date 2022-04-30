@@ -1,0 +1,118 @@
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Square Peg';
+  font-size: 20px;
+  color: grey;
+}
+
+h3 {
+  margin-top: 0px;
+  
+  
+}
+
+h3.second {
+  color: green;
+  margin: 0;
+}
+
+h3#second {
+  color: lime;
+  margin: 0;
+}
+
+.newsletter {
+  border: solid #cfcfcf thin;
+  border-radius: 3px;
+  padding: 10px;
+  padding-bottom: 20px;
+  
+  position: relative;
+  
+}
+
+.newsletter p {
+  color: grey;
+}
+
+.newsletter button {
+  background-color: #3cb878;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.newsletter input#email {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 4px;
+  border: #cfcfcf solid 1px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  
+}
+
+.newsletter label {
+  position: relative;
+  top: 1px;
+  color:grey;
+  
+
+}
+
+#closex {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 30px;
+  
+}
+
+#questionmark {
+  background: #3cb878;
+  height: 50px;
+  width:50px;
+  
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.card {
+  background: #3cb878;
+  width: 170px;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+  
+  
+  box-shadow: 0px 0px 10px 5px grey;
+    
+}
+
+.card h3 {
+  margin-bottom: 0;
+}
+
+#card-holder {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+  align-items: center; /* flex-start, flex-end */
+  
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  
+}
